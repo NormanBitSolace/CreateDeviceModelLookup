@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "BlackLabsData",
+        "repositoryURL": "https://github.com/NormanBitSolace/BlackLabsData.git",
+        "state": {
+          "branch": null,
+          "revision": "402642154e1843a5733e2b457b01c3a08f335004",
+          "version": "1.0.10"
+        }
+      },
+      {
+        "package": "BlackLabsFile",
+        "repositoryURL": "https://github.com/NormanBitSolace/BlackLabsFile.git",
+        "state": {
+          "branch": null,
+          "revision": "23ea9a3ff97b6e5c29f28d21c066866fe5e966fd",
+          "version": "1.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
