@@ -1,5 +1,3 @@
-//King John!
-
 import UIKit
 
 @UIApplicationMain

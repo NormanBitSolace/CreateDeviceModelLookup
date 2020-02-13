@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		944F54A823F616E5005C7AA3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 944F54A723F616E5005C7AA3 /* README.md */; };
 		94CF606A23F5F7C200E19CF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CF606923F5F7C200E19CF3 /* AppDelegate.swift */; };
 		94CF606C23F5F7C200E19CF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CF606B23F5F7C200E19CF3 /* SceneDelegate.swift */; };
 		94CF606E23F5F7C200E19CF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CF606D23F5F7C200E19CF3 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		944F54A723F616E5005C7AA3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		94CF606623F5F7C200E19CF3 /* CreateDeviceModelLookup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreateDeviceModelLookup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94CF606923F5F7C200E19CF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94CF606B23F5F7C200E19CF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 		94CF606823F5F7C200E19CF3 /* CreateDeviceModelLookup */ = {
 			isa = PBXGroup;
 			children = (
+				944F54A723F616E5005C7AA3 /* README.md */,
 				94CF608523F6110E00E19CF3 /* device_types.txt */,
 				94CF606923F5F7C200E19CF3 /* AppDelegate.swift */,
 				94CF606B23F5F7C200E19CF3 /* SceneDelegate.swift */,
@@ -142,6 +145,7 @@
 			files = (
 				94CF608623F6110F00E19CF3 /* device_types.txt in Resources */,
 				94CF607623F5F7C500E19CF3 /* LaunchScreen.storyboard in Resources */,
+				944F54A823F616E5005C7AA3 /* README.md in Resources */,
 				94CF607323F5F7C500E19CF3 /* Assets.xcassets in Resources */,
 				94CF607123F5F7C200E19CF3 /* Main.storyboard in Resources */,
 			);

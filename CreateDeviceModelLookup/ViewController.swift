@@ -9,11 +9,11 @@ class ViewController: UIViewController {
         ViewController.generateDictionary()
     }
 
-    //  https://gist.github.com/adamawolf/3048717
+    //  Thank you Adam A Wolf! https://gist.github.com/adamawolf/3048717
     static func generateDictionary() {
         if let lines = Data.lines(localFile: "device_types.txt") {
             let filteredLines = lines.filter { !$0.isEmpty } // remove lines with empty quotes
-            print("\nlet DEVICE_MODEL_TYPES: [String: String] = [\n")
+            print("let DEVICE_MODELS: [String: String] = [")
             for line in filteredLines {
                 let parts = line.components(separatedBy: " : ")
                 let key = parts[0].trimmingCharacters(in: .whitespaces)
@@ -24,7 +24,7 @@ class ViewController: UIViewController {
                     print("\t\"\(key)\": \"\(value)\",")
                 }
             }
-            print("]\n")
+            print("]")
         }
     }
 }
